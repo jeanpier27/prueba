@@ -9,7 +9,7 @@ if(!$conexion){
 
 $id=$_POST['id'];
 
-// echo("<option>$id</option>");
+echo("<option>$id</option>");
 
 
 $depa=mysql_query("SELECT tb_empleado.nombre FROM tb_biometrico inner join tb_empleado on tb_biometrico.id_empleado = tb_empleado.id_empleado WHERE tb_biometrico.departamento='$id' group by tb_empleado.nombre");
