@@ -1,6 +1,6 @@
 <?php 
 $conexion=(mysql_connect('localhost','root','1234567890'));
-
+// esto es una prueba para ver control de versionamiento
 mysql_select_db('biometrico',$conexion);
 
 if(!$conexion){
